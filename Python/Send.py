@@ -11,7 +11,7 @@ def enviar_mensagem(mensagem, channel, routing_key):
 def main():
     try:
         connection = pika.BlockingConnection(
-            pika.URLParameters("amqps://ziupzwyk:OJCI06IEsSFy84nSkDGGGsC_FNyeI3Mz@jackal-01.rmq.cloudamqp.com/ziupzwyk")
+            pika.URLParameters("")
         )
         channel = connection.channel()
 
