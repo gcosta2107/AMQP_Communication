@@ -1,9 +1,9 @@
 import pika
 
 connection = pika.BlockingConnection(pika.ConnectionParameters(
-    host='jackal-01.rmq.cloudamqp.com',
-    virtual_host='ziupzwyk',
-    credentials=pika.PlainCredentials('ziupzwyk', 'OJCI06IEsSFy84nSkDGGGsC_FNyeI3Mz')
+    host='',
+    virtual_host='',
+    credentials=pika.PlainCredentials('', '')
 ))
 
 channel = connection.channel()
